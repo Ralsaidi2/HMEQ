@@ -6,7 +6,7 @@ import sklearn  # This is needed for the pickle file to load!
 
 # Load the trained model
 # --- Put the Model in Drive First---
-with open("/Users/rommie/Desktop/School /BUS 458/Code/Other/streamlit/hmeq_model.pkl", "rb") as file:
+with open("hmeq_model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Title for the app
